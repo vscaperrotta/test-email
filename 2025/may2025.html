@@ -9,16 +9,17 @@
   <style>
     @font-face {
       font-family: 'Inter';
-      src: url('https://test-email-pi.vercel.app/font/Inter_28pt-Regular.ttf') format('opentype');
+      src: url('https://test-email-pi.vercel.app/font/Inter-Regular.otf') format('opentype');
       font-weight: 400;
       font-style: normal;
     }
 
-    @media only screen and (max-width: 720px) {
-      body {
-        padding: 0 !important;
-      }
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      padding: 0;
+    }
 
+    @media only screen and (max-width: 720px) {
       table[width="720"] {
         width: 100% !important;
         min-width: 0 !important;
@@ -71,10 +72,6 @@
         width: 100% !important;
         box-sizing: border-box !important;
       }
-    }
-
-    body {
-      font-family: 'Inter', sans-serif !important;
     }
   </style>
 </head>
